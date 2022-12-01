@@ -1,12 +1,7 @@
-# ELF-Loader
-Implemented a handler for the SIGSEGV signal in loader/loader.c
-
-# Implementation details
-
-Here, I implemented a handler that responds to SIGSEGV.
+Here, I implemented a handler that responded to SIGSEGV.
 
 Sigsegv occurs when the memory is not mapped for that page or when it
-does not have the needed access rights.
+does not have the needed access right.
 
 So, I started by checking if I received a SIGSEGV. If not, I called the
 default handler.
