@@ -1,4 +1,4 @@
-Here, I implemented a handler that responded to SIGSEGV.
+Here,in loader/loader.c, I implemented a handler that responded to SIGSEGV.
 
 Sigsegv occurs when the memory is not mapped for that page or when it
 does not have the needed access right.
