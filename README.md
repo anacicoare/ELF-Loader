@@ -1,8 +1,11 @@
+# Purpose
 Here,in loader/loader.c, I implemented a handler that responded to SIGSEGV.
 
+# Why does SIGSEGV occur
 Sigsegv occurs when the memory is not mapped for that page or when it
 does not have the needed access right.
 
+# Implementation details
 So, I started by checking if I received a SIGSEGV. If not, I called the
 default handler.
 
